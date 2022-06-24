@@ -24,7 +24,7 @@ class HashiCorpVaultCypherProvider implements CypherModuleProvider{
 
     @Override
     String getCypherMountPoint() {
-        return 'hashicorpVault'
+        return 'vault'
     }
 
     @Override
