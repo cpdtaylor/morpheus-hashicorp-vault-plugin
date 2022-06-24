@@ -64,6 +64,16 @@ jar {
 		attributes(
 				'Plugin-Class': 'com.morpheusdata.vault.HashiCorpVaultPlugin',
 				'Plugin-Version': version,
+        'Morpheus-Name': 'HashiCorp Vault Morpheus Plugin',
+        'Morpheus-Organization': 'morpheus',
+        'Morpheus-Code': 'hashicorp-vault-plugin',
+        'Morpheus-Description': 'Morpheus plugin for storing and fetching secret data to/from a HashiCorp Vault Server',
+        'Morpheus-Logo': 'assets/vault.svg',
+        'Morpheus-Logo-Dark': 'assets/vault-white.svg',
+        'Morpheus-Color': '#ffffff',
+        'Morpheus-Labels': 'Plugin, Cypher, Credentials, Vault',
+        'Morpheus-Repo': 'https://github.com/cpdtaylor/morpheus-hashicorp-vault-plugin',
+        'Morpheus-Min-Appliance-Version': "5.4.6"
 		)
 	}
 }
