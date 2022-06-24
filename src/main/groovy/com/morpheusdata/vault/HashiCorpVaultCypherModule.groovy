@@ -144,7 +144,7 @@ class HashiCorpVaultCypherModule implements CypherModule {
     if (settings.hashicorpVaultPluginUrl) {
       return settings.hashicorpVaultPluginUrl
     } else {
-      return this.cypher.read("vault/config/url").value
+      return this.cypher.read("vault/config/url")?.value
     }
   }
 
@@ -153,7 +153,7 @@ class HashiCorpVaultCypherModule implements CypherModule {
     if (settings.hashicorpVaultPluginUrl) {
       return settings.hashicorpVaultPluginToken
     } else {
-      return this.cypher.read("vault/config/token").value
+      return this.cypher.read("vault/config/token")?.value
     }
   }
   
